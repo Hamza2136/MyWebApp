@@ -7,6 +7,7 @@ using MyApp.Models.ViewModel;
 
 namespace MyWebApp.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private IUnitOfWork _unitofwork;
